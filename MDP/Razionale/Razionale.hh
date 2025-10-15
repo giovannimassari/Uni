@@ -38,7 +38,11 @@ public:
   Razionale& operator--();
 
 
- bool 
+  bool operator==(const Razionale& y) const;
+  bool operator>(const Razionale& y) const;
+  bool operator<(const Razionale& y) const;
+  bool operator<=(const Razionale& y) const;
+  bool operator>=(const Razionale& y) const;
   
 
 private:
