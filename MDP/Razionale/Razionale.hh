@@ -26,6 +26,7 @@ public:
   Razionale operator*(const Razionale& y) const;
   Razionale operator/(const Razionale& y) const;
 
+  Razionale& operator=(const Raizonale& y);
   Razionale& operator+=(const Razionale& y);
   Razionale& operator-=(const Razionale& y);
   Razionale& operator*=(const Razionale& y);
